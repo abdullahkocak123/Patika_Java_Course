@@ -16,20 +16,20 @@ public class FlightTicketCalculation {
 
         double normalTutar = mesafe * 0.1;
 
-        if (mesafe<=0 || yas<=0 || !((yolculukTipi==1||(yolculukTipi==2)))){
+        if (mesafe <= 0 || yas <= 0 || !((yolculukTipi == 1 || (yolculukTipi == 2)))) {
             System.out.println("Hatalı veri girdiniz !");
         } else {
-            if (yas<12){
-                normalTutar *=0.5;
+            if (yas < 12) {
+                normalTutar *= 0.5;
             }
-            if (12<=yas && yas<=24){
-                normalTutar *=0.9;
+            if (12 <= yas && yas <= 24) {
+                normalTutar *= 0.9;
             }
-            if(yas>=65){
-                normalTutar *=0.7;
+            if (yas >= 65) {
+                normalTutar *= 0.7;
             }
-            if (yolculukTipi==2){
-                normalTutar *=1.6;
+            if (yolculukTipi == 2) {
+                normalTutar *= 1.6;
             }
             System.out.println("Toplam Tutar = " + normalTutar + " TL");
         }
