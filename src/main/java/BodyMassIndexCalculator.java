@@ -5,7 +5,7 @@ public class BodyMassIndexCalculator {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Lütfen boyunuzu (metre cinsinden) giriniz : ");
+        System.out.print("Lütfen boyunuzu (metre cinsinden) giriniz: ");
         double height = scanner.nextDouble();
 
         System.out.print("Lütfen kilonuzu giriniz: ");
