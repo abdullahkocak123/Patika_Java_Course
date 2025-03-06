@@ -6,6 +6,7 @@ public class GroceryCashier {
 
         Scanner scanner = new Scanner(System.in);
 
+        //Kullanıcıdan ürün türlerinin miktarlarını alıyoruz.
         System.out.print("Armut kaç kilo?: ");
         double armut = scanner.nextDouble();
 
@@ -22,7 +23,7 @@ public class GroceryCashier {
         double patlican = scanner.nextDouble();
 
 
-
+        //Toplam tutarı hesaplayıp ekrana yazdırıyoruz.
         System.out.print("Toplam Tutar: " + (armut* 2.14  + elma*3.67 + domates*1.11 + muz*0.95 + patlican*5) + " TL");
 
     }

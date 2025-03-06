@@ -5,12 +5,14 @@ public class LeapYear {
 
         Scanner scanner = new Scanner(System.in);
 
+        //Kullanıcıdan yıl değerini alıyoruz.
         System.out.print("Yıl Giriniz: ");
 
         int year = scanner.nextInt();
 
         boolean isLeapYear = false;
 
+        //Artık yıl olup olmadığını tespit ediyoruz.
         if (year % 4 == 0) {
             isLeapYear = true;
         }
@@ -21,6 +23,7 @@ public class LeapYear {
             }
         }
 
+        //Artık yıl olup olmadığı sonucunu ekrana yazdırıyoruz.
         System.out.println(isLeapYear ? (year + " bir artık yıldır!") : (year + " bir artık yıl değildir!"));
 
     }

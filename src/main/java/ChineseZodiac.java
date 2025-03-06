@@ -5,10 +5,12 @@ public class ChineseZodiac {
 
         Scanner scanner = new Scanner(System.in);
 
+        //Kullanıcıdan doğum tarihini alıyoruz.
         System.out.print("Doğum Yılınızı Giriniz: ");
 
         int age = scanner.nextInt();
 
+        //Çin Zodyağı hesaplıyoruz.
         String zodiac = switch (age % 12) {
             case 0 -> "Maymun";
             case 1 -> "Horoz";
@@ -25,6 +27,7 @@ public class ChineseZodiac {
             default -> "Geçersiz gün!";
         };
 
+        //Çin Zodyağı sonucunu ekrana yazdırıyoruz.
         System.out.println("Çin Zodyağı Burcunuz: " + zodiac);
     }
 }
