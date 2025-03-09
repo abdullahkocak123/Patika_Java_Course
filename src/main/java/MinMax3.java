@@ -4,7 +4,6 @@ public class MinMax3 {
 
     // Girilen sayılardan min ve Max Değerleri bulan program
     // (ödev içerisinde bu şekilde farklı bir tanım daha var)
-    // Henüz Diziler konusu işlenmediği için kullanıcıdan sabit olarak 3 tane sayı alıyoruz
 
     public static void main(String[] args) {
 
