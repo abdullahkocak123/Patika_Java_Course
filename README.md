@@ -1,3 +1,3 @@
-Patika_Java_Week_1
+Patika_Java_Course
 
-This project contains sample applications that I worked on during the first week of the Patika+ Back End (Java) Web Dewelopment Bootcamp.
+This project contains sample applications that I worked on during the Patika+ Back End (Java) Web Dewelopment Bootcamp.
