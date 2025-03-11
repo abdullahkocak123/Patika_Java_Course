@@ -39,7 +39,7 @@ public class MatrixTranspose {
         }
 
         //Transpoz matrisi ekrana yadırıyoru;
-        System.out.println("Transpoz matrix:");
+        System.out.println("Transpozz matrix:");
         for (int i = 0; i < transposeMatrix.length; i++) {
             for (int j = 0; j < transposeMatrix[0].length; j++) {
                 System.out.print(transposeMatrix[i][j] + "");
