@@ -1,4 +1,4 @@
-package week_5_lambdas;
+package week_5.lambdas;
 
 import java.util.ArrayList;
 import java.util.List;
