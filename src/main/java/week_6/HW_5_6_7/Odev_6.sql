@@ -3,8 +3,6 @@ SELECT AVG(rental_rate) FROM film; --average rental_rate of films
 SELECT COUNT(*) FROM film
 WHERE title LIKE 'C%'; --how many films' title starts with 'C'
 
-SELECT * FROM film;
-
 SELECT MAX(length) FROM film
 WHERE rental_rate = 0.99; --maksimum length of the film which has 0.99 as rental_rate
 
