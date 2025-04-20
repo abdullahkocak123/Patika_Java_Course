@@ -7,5 +7,5 @@ RIGHT JOIN payment ON customer.customer_id = payment.customer_id;
 --payment_id, customer's first_name and last_name on right join customer & payment tables
 
 SELECT rental_id, first_name, last_name FROM customer
-FULL JOIN rental ON customer.customer_id = rental.customer_id;
+FULL OUTER JOIN rental ON customer.customer_id = rental.customer_id;
 --full join of tables; customer & rental
